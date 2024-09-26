@@ -17,7 +17,7 @@ func max(num1, num2 int) int {
 }
 
 func main() {
-
+	fmt.Println("Welcome to Group F's Week 4 Project!")
 	firstName := "Naga"
 	lastName := "Teja"
 	printFullName(firstName, lastName)
@@ -30,5 +30,15 @@ func main() {
 
 	value := total()
 	fmt.Println(value)
+
+	var num int
+	fmt.Print("Enter a number: ")
+	fmt.Scan(&num)
+
+	if IsEven(num) {
+		fmt.Println(num, "is even.")
+	} else {
+		fmt.Println(num, "is not even.")
+	}
 
 }
