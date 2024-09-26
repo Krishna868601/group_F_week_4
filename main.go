@@ -2,8 +2,24 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println("Welcome to Group F's Week 4 Project!")
-	value := total()
-	fmt.Println(value)
+func printFullName(firstName, lastName string) {
+	fmt.Println("Full Name:", firstName+" "+lastName)
 }
+
+
+
+func main() {
+
+	firstName := "Naga"  
+	lastName := "Teja"
+	printFullName(firstName, lastName)
+
+
+
+
+	
+}
+
+
+
+
