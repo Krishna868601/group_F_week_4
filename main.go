@@ -40,5 +40,8 @@ func main() {
 	} else {
 		fmt.Println(num, "is not even.")
 	}
+	arr := []int{1, 2, 3, 4, 5}
+	reverseArray(arr)
+	fmt.Println(arr)
 
 }
